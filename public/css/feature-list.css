@@ -1,0 +1,35 @@
+.feature-list-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border: 1px solid #f2f2f2;
+    width: inherit;
+}
+
+.feature-item {
+    width: 93.5px;
+    height: inherit;
+    position: relative;
+    flex:1;
+}
+
+.feature-item-link{
+    width: 93.5px;
+    height: 60px;
+    line-height: 27px;
+}
+
+.feature-item-icon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.post {
+    /*https://m.facebook.com/rsrc.php/v3/yt/r/h5MqffW58pb.png*/
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/h5MqffW58pb.png');
+    background-position: -21px -55px;
+    background-size: 104px 108px;
+}
